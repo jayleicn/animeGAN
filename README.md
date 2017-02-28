@@ -33,7 +33,7 @@ The images are not clean, some outliers can be observed, which degrades the qual
 To run the experiment, 
 
 ```bash
-$ python main.py --dataRoot path_to_dataset/ # The settings are inside main.py file
+$ python main.py --dataRoot path_to_dataset/ 
 ```
 
 The pretrained model for DCGAN are also in this repo, play it inside the jupyter notebook.
