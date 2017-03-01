@@ -75,7 +75,7 @@ Anime-style images  of 126 tags are collected from [danbooru.donmai.us](http://d
 
 Dig into build_face_dataset.py to find more settings that I used.
 
-> The dataset can also be downloaded from here, https://pan.baidu.com/s/1pLVpgEJ, non-commercial use please.
+> The dataset can also be downloaded from here, https://pan.baidu.com/s/1pLVpgEJ (~400MB), non-commercial use please.
 
 ### Others
 
