@@ -1,6 +1,6 @@
 # AnimeGAN
 
-> A simple PyTorch Implementaion of  Generative Adversarial Networks, focusing on anime face drawing.
+> A simple PyTorch Implementation of  Generative Adversarial Networks, focusing on anime face drawing.
 
 
 
@@ -9,7 +9,6 @@
 The images are generated from a DCGAN model trained on 143,000 anime character faces for 100 epochs.
 
 ![fake_sample_1](images/fake_sample.png)
-
 
 
 ### Image Transition
@@ -76,7 +75,7 @@ Anime-style images  of 126 tags are collected from [danbooru.donmai.us](http://d
 
 Dig into build_face_dataset.py to find more settings that I used.
 
-
+> The dataset can also be downloaded from here, https://pan.baidu.com/s/1pLVpgEJ, non-commercial use please.
 
 ### Others
 
