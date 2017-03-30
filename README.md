@@ -11,7 +11,7 @@ The images are generated from a DCGAN model trained on 143,000 anime character f
 ![fake_sample_1](images/fake_sample.png)
 
 
-### Image Transition
+### Image Interpolation
 
 Manipulating latent codes, enables the transition from images in the first row to the last row.
 
