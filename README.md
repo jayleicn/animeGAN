@@ -73,8 +73,8 @@ Anime-style images  of 126 tags are collected from [danbooru.donmai.us](http://d
    ```
 
 
-I've cleaned the original dataset, the new version of anime-face dataset has
-115085 images in 127 tags. You can access the images from:
+I've cleaned the original dataset, the new version of the dataset has
+115085 images in 126 tags. You can access the images from:
 - Brine (a python-based dataset management library): https://www.brine.io/jayleicn/anime-faces 
 - Google Drive: https://drive.google.com/file/d/0B4wZXrs0DHMHMEl1ODVpMjRTWEk/view?usp=sharing
 - BaiduYun: https://pan.baidu.com/s/1o8Nxllo
