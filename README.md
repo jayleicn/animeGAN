@@ -39,7 +39,7 @@ The pretrained model for DCGAN are also in this repo, play it inside the jupyter
 
 
 
-### AnimeFace Dataset
+### anime-faces Dataset
 
 Anime-style images  of 126 tags are collected from [danbooru.donmai.us](http://danbooru.donmai.us/) using the crawler tool [gallery-dl](https://github.com/mikf/gallery-dl). The images are then processed by a anime face detector [python-animeface](https://github.com/nya3jp/python-animeface). The resulting dataset contains ~143,000 anime faces. Note that some of the tags may no longer meaningful after cropping, i.e. the cropped face images under 'uniform' tag may not contain visible parts of uniforms.
 
@@ -53,7 +53,7 @@ Anime-style images  of 126 tags are collected from [danbooru.donmai.us](http://d
    # download 1000 images under the tag "misaka_mikoto"
    gallery-dl --images 1000 "https://danbooru.donmai.us/posts?tags=misaka_mikoto"
 
-   # In a multi-processing manner
+   # in a multi-processing manner
    cat tags.txt | \
    xargs -n 1 -P 12 -I 'tag' \ 
    bash -c ' gallery-dl --images 1000 "https://danbooru.donmai.us/posts?tags=$tag" '
@@ -73,9 +73,13 @@ Anime-style images  of 126 tags are collected from [danbooru.donmai.us](http://d
    ```
 
 
-Dig into build_face_dataset.py to find more settings that I used.
+I've cleaned the original dataset, the new version of anime-face dataset has
+115085 images in 127 tags. You can access the images from:
+- Brine (a python-based dataset management library): https://www.brine.io/jayleicn/anime-faces 
+- Google Drive: https://drive.google.com/file/d/0B4wZXrs0DHMHMEl1ODVpMjRTWEk/view?usp=sharing
+- BaiduYun: https://pan.baidu.com/s/1o8Nxllo
 
-> The dataset can also be downloaded from here, https://pan.baidu.com/s/1pLVpgEJ (~400MB), non-commercial use please.
+Non-commercial use please.
 
 ### Things I've learned
 1. GANs are really hard to train.
