@@ -1,8 +1,10 @@
+> ### GitAds
+> <a href="https://tracking.gitads.io/?repo=animeGAN"><img src="https://images.gitads.io/animeGAN" alt="GitAds"/></a>
+
+
 # AnimeGAN
 
 > A simple PyTorch Implementation of  Generative Adversarial Networks, focusing on anime face drawing.
-
-
 
 ### Randomly Generated Images
 
