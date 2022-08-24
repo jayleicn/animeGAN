@@ -73,7 +73,7 @@ Anime-style images  of 126 tags are collected from [danbooru.donmai.us](http://d
 
 I've cleaned the original dataset, the new version of the dataset has
 115085 images in 126 tags. You can access the images from:
-- Google Drive: https://drive.google.com/file/d/0B4wZXrs0DHMHMEl1ODVpMjRTWEk/view?usp=sharing&resourcekey=0-cLy-WrY7ZuUWrhPIquiJkg
+- GitHub: https://github.com/jayleicn/animeGAN/releases/tag/data
 - BaiduYun: https://pan.baidu.com/s/1o8Nxllo
 
 Non-commercial use please.
