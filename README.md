@@ -48,8 +48,8 @@ Anime-style images  of 126 tags are collected from [danbooru.donmai.us](http://d
 1. Download anime-style images 
 
    ```bash
-   # download 1000 images under the tag "misaka_mikoto"
-   gallery-dl --images 1000 "https://danbooru.donmai.us/posts?tags=misaka_mikoto"
+   # download images under the tag "misaka_mikoto"
+   gallery-dl "https://danbooru.donmai.us/posts?tags=misaka_mikoto"
 
    # in a multi-processing manner
    cat tags.txt | \
